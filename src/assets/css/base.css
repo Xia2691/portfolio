@@ -4,12 +4,44 @@ body {
   font-weight: 400;
 }
 
+button {
+  align-items: center;
+  border-radius: 4px;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: var(--font-title);
+  gap: 5px;
+  justify-content: center;
+  line-height: 20px;
+  padding: 10px 16px;
+  text-transform: uppercase;
+  text-wrap: nowrap;
+  width: 100%;
+}
+
+.btn-green {
+  background-color: var(--btn-green);
+}
+.btn-green:hover {
+  background-color: var(--btn-green-hover);
+}
+.btn-blue {
+  background-color: var(--btn-blue);
+}
+.btn-blue:hover {
+  background-color: var(--btn-blue-hover);
+}
+
 .base-container {
   max-width: 1360px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 12px;
-  width: 100%;
 }
 
 .hr {
@@ -34,7 +66,9 @@ small {
 a {
   color: var(--anchor);
   cursor: pointer;
+  text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
 }
@@ -42,6 +76,25 @@ a:hover {
 .red {
   color: #fb866a;
   fill: #fb866a;
+}
+
+.font-title {
+  font-family: var(--font-title);
+  font-weight: 700;
+}
+
+.social-icon {
+  align-items: center;
+  border-radius: 99px;
+  background-color: var(--icon-social);
+  color: var(--icon-social-text);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  height: 36px;
+  transition: 0.3s ease;
+  user-select: none;
+  width: 36px;
 }
 
 /* Toggle */
@@ -65,5 +118,5 @@ a:hover {
   width: 16px;
 }
 .bubble.move {
-  margin-left: 22px;
+  margin-left: 23px;
 }

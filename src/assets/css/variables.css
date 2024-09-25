@@ -10,16 +10,20 @@
   /* Text */
   --text: #434343;
   --title: #5f6b77;
+  --subtitle: #778492;
   --heading: #545e69;
-  --anchor: #2d844e;
+  --anchor: #54ba4e;
 
   /* Button */
   --btn-green: #54ba4e;
+  --btn-green-hover: #49ac43;
   --btn-blue: #479fc8;
+  --btn-blue-hover: #3893bd;
 
   /* Icon */
   --icon: #ccd1d6;
   --icon-social: #b0b7bf;
+  --icon-social-text: #fff;
 
   --bar-empty: #e8e8e8;
   --bar-filled: #66cb8c;
@@ -41,16 +45,20 @@
   /* Text */
   --text: rgba(255, 255, 255, 0.7);
   --title: rgba(255, 255, 255, 0.9);
+  --subtitle: rgba(255, 255, 255, 0.7);
   --heading: rgba(255, 255, 255, 0.9);
-  --anchor: #3aaa64;
+  --anchor: #54ba4e;
 
   /* Button */
   --btn-green: #54ba4e;
+  --btn-green-hover: #49ac43;
   --btn-blue: #479fc8;
+  --btn-blue-hover: #3893bd;
 
   /* Icon */
   --icon: #ccd1d6;
   --icon-social: #2e3238;
+  --icon-social-text: rgba(255, 255, 255, 0.7);
 
   --bar-empty: #e8e8e8;
   --bar-filled: #66cb8c;

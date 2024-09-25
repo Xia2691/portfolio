@@ -4,7 +4,7 @@ import heartIcon from '@/assets/svg/heart.svg'
 
 <template>
   <div class="footer">
-    <small>Designed with <heartIcon class="svg red" /> by <a>Ijaz Ul Haq</a></small>
+    <small>Designed with <heartIcon class="svg red" /> by <a href="https://github.com/EjazEkay" target="_blank">Ijaz Ul Haq</a></small>
   </div>
 </template>
 
@@ -24,5 +24,6 @@ small {
 }
 a {
   color: #fff;
+  text-decoration: none;
 }
 </style>
