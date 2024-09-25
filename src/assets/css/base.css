@@ -1,0 +1,69 @@
+body {
+  background-color: var(--body);
+  font-family: var(--font);
+  font-weight: 400;
+}
+
+.base-container {
+  max-width: 1360px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 12px;
+  width: 100%;
+}
+
+.hr {
+  background-color: var(--hr);
+  height: 1px;
+}
+
+.section {
+  background-color: var(--base);
+  box-shadow: var(--shadow);
+}
+
+small {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.svg {
+  height: 16px;
+}
+
+a {
+  color: var(--anchor);
+  cursor: pointer;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.red {
+  color: #fb866a;
+  fill: #fb866a;
+}
+
+/* Toggle */
+.togglebtn {
+  align-items: center;
+  border-radius: 99px;
+  background-color: var(--toggle-btn);
+  cursor: pointer;
+  display: flex;
+  height: 24px;
+  overflow: hidden;
+  width: 44px;
+}
+.togglebtn .bubble {
+  background-color: #fff;
+  border-radius: 99px;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.2);
+  height: 16px;
+  margin-left: 4px;
+  transition: margin-left 0.3s ease;
+  width: 16px;
+}
+.bubble.move {
+  margin-left: 22px;
+}

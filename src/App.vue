@@ -1,7 +1,3 @@
-<script setup></script>
-
 <template>
-  <div>My Portfolio</div>
+  <router-view></router-view>
 </template>
-
-<style scoped></style>
