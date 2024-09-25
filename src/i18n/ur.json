@@ -1,0 +1,25 @@
+{
+  "name": "اعجاز الحق",
+  "github": {
+    "name": "EjazEkay",
+    "url": "https://github.com/EjazEkay"
+  },
+  "mail": {
+    "email": "ejazulhaq8281@gmail.com",
+    "mailto": "ejazulhaq8281@gmail.com"
+  },
+  "location": "",
+  "header": {
+    "description": "ایم ای وی این اسٹیک ڈیولپر",
+    "button": {
+      "btn1": "مجھ سے رابطہ کریں",
+      "btn2": "سی وی ڈاؤن لوڈ کریں"
+    }
+  },
+  "footer": {
+    "credit": {
+      "created": "ڈیزائن کیا گیا",
+      "by": "کی طرف سے"
+    }
+  }
+}

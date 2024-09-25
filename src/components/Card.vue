@@ -1,10 +1,8 @@
 <script setup>
-import { defineProps } from 'vue'
-
 const props = defineProps({
   title: {
     type: String,
-    required: true,
+    required: false,
   },
 })
 </script>
@@ -35,7 +33,6 @@ const props = defineProps({
   font-size: 24px;
   line-height: 28px;
 }
-
 .card-body {
   display: flex;
   gap: 30px;

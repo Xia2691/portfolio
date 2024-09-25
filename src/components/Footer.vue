@@ -4,7 +4,11 @@ import heartIcon from '@/assets/svg/heart.svg'
 
 <template>
   <div class="footer">
-    <small>Designed with <heartIcon class="svg red" /> by <a href="https://github.com/EjazEkay" target="_blank">Ijaz Ul Haq</a></small>
+    <small>
+      {{ $t('footer.credit.created') }} <heartIcon class="svg red" /> {{ $t('footer.credit.by') }}
+      <a :href="$t('github.url')" target="_blank">{{ $t('name') }}</a>
+    </small>
+    <Locale class="locale" />
   </div>
 </template>
 
@@ -15,6 +19,7 @@ import heartIcon from '@/assets/svg/heart.svg'
   display: flex;
   justify-content: center;
   padding: 12px;
+  position: relative;
 }
 small {
   align-items: center;
@@ -25,5 +30,10 @@ small {
 a {
   color: #fff;
   text-decoration: none;
+}
+.locale {
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
 </style>

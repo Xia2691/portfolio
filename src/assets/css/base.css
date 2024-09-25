@@ -19,7 +19,6 @@ button {
   justify-content: center;
   line-height: 20px;
   padding: 10px 16px;
-  text-transform: uppercase;
   text-wrap: nowrap;
   width: 100%;
 }

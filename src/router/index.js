@@ -6,17 +6,4 @@ const router = createRouter({
   routes: [publicRoute],
 })
 
-// router.beforeEach((to, from, next) => {
-//   const isAuthenticated = false
-//   const isAdmin = false
-
-//   if (to.meta.requiresAuth && !isAuthenticated) {
-//     next({ name: '404' })
-//   } else if (to.meta.requiresAdmin && (!isAuthenticated || !isAdmin)) {
-//     next({ name: '404' })
-//   } else {
-//     next()
-//   }
-// })
-
 export default router

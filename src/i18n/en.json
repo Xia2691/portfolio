@@ -1,0 +1,25 @@
+{
+  "name": "Ijaz Ul Haq",
+  "github": {
+    "name": "EjazEkay",
+    "url": "https://github.com/EjazEkay"
+  },
+  "mail": {
+    "email": "ejazulhaq8281@gmail.com",
+    "mailto": "ejazulhaq8281@gmail.com"
+  },
+  "location": "Dera ismail khan , PK",
+  "header": {
+    "description": "MEVN Stake Developer",
+    "button": {
+      "btn1": "Contact Me",
+      "btn2": "Download CV"
+    }
+  },
+  "footer": {
+    "credit": {
+      "created": "Designed with",
+      "by": "by"
+    }
+  }
+}
