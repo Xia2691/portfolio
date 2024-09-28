@@ -26,7 +26,7 @@ const star4 = ref(3.6)
               <el-progress
                 :text-inside="false"
                 :stroke-width="15"
-                :percentage="90"
+                :percentage="80"
                 :show-text="false"
                 color="#66cb8c"
               />
@@ -51,18 +51,8 @@ const star4 = ref(3.6)
                 color="#66cb8c"
               />
             </div>
-            <div class="progress-item">
-              <h3 class="bar-heading">Python & AHK <span>Pro</span></h3>
-              <el-progress
-                :text-inside="false"
-                :stroke-width="15"
-                :percentage="75"
-                :show-text="false"
-                color="#66cb8c"
-              />
-            </div>
           </div>
-          <a href="https://github.com/EjazEkay"><externalLink />{{ $t('skills.more') }}</a>
+          <a href="https://github.com/Xia2691"><externalLink />{{ $t('skills.more') }}</a>
         </div>
       </Card>
       <Card :title="$t('language.title')">
