@@ -13,6 +13,7 @@
   --subtitle: #778492;
   --heading: #545e69;
   --anchor: #54ba4e;
+  --dimmed: #999;
 
   /* Button */
   --btn-green: #54ba4e;
@@ -48,6 +49,7 @@
   --subtitle: rgba(255, 255, 255, 0.7);
   --heading: rgba(255, 255, 255, 0.9);
   --anchor: #54ba4e;
+  --dimmed: #999;
 
   /* Button */
   --btn-green: #54ba4e;

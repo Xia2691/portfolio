@@ -32,8 +32,8 @@ a {
   text-decoration: none;
 }
 .locale {
-  position: fixed;
-  bottom: 0;
-  left: 0;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
 }
 </style>
