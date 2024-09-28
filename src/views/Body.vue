@@ -17,16 +17,6 @@ const star4 = ref(3.6)
       <Card :title="$t('about.title')">
         {{ $t('about.text') }}
       </Card>
-      <Card title=""> </Card>
-    </div>
-    <div class="right">
-      <Card>
-        <div class="info">
-          <p><locationIcon />{{ $t('location') }}</p>
-          <a :href="$t('mail.mailto')"><messageIcon />{{ $t('mail.address') }}</a>
-          <a :href="$t('github.url')" target="_blank"><linkIcon />{{ $t('github.url') }}</a>
-        </div>
-      </Card>
       <Card :title="$t('skills.title')">
         {{ $t('skills.text') }}
         <div class="skills">
@@ -85,14 +75,6 @@ const star4 = ref(3.6)
           <a href="https://github.com/EjazEkay"><externalLink />{{ $t('skills.more') }}</a>
         </div>
       </Card>
-      <Card :title="$t('education')">
-        <div class="edu-container">
-          <div class="edu-item">
-            <h4><gradIcon />BSc Computer Science</h4>
-            <p>Qurtuba University <span>(2020-2024)</span></p>
-          </div>
-        </div>
-      </Card>
       <Card :title="$t('language.title')">
         <div class="lang-container">
           <div class="lang-item">
@@ -112,6 +94,23 @@ const star4 = ref(3.6)
               English: <span>{{ $t('language.type2') }}</span>
             </p>
             <el-rate :colors="['#66CB8C', '#66CB8C', '#66CB8C']" v-model="star4" allow-half disabled />
+          </div>
+        </div>
+      </Card>
+    </div>
+    <div class="right">
+      <Card>
+        <div class="info">
+          <p><locationIcon />{{ $t('location') }}</p>
+          <a :href="$t('mail.mailto')"><messageIcon />{{ $t('mail.address') }}</a>
+          <a :href="$t('github.url')" target="_blank"><linkIcon />{{ $t('github.url') }}</a>
+        </div>
+      </Card>
+      <Card :title="$t('education')">
+        <div class="edu-container">
+          <div class="edu-item">
+            <h4><gradIcon />BSc Computer Science</h4>
+            <p>Qurtuba University <span>(2020-2024)</span></p>
           </div>
         </div>
       </Card>

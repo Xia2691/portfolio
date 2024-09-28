@@ -4,7 +4,7 @@ import avatarUrl from '@/assets/avatar/avatar.jpg'
 
 <template>
   <article class="resume-wrapper text-center position-relative">
-    <div class="resume-wrapper-inner mx-auto text-start" style="display: flex; align-items: end;">
+    <div class="resume-wrapper-inner mx-auto text-start" style="display: flex; justify-content: end;">
       <button class="btn-green" style="margin-bottom: 24px; width: 160px; border-radius: 4px;">Download PDF</button>
     </div>
     <div class="resume-wrapper-inner mx-auto text-start bg-white shadow-lg">
