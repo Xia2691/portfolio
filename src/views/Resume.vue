@@ -4,8 +4,12 @@ import avatarUrl from '@/assets/avatar/avatar.jpg'
 
 <template>
   <article class="resume-wrapper text-center position-relative">
-    <div class="resume-wrapper-inner mx-auto text-start" style="display: flex; justify-content: end;">
-      <button class="btn-green" style="margin-bottom: 24px; width: 160px; border-radius: 4px;">Download PDF</button>
+    <div class="resume-wrapper-inner mx-auto text-start" style="display: flex; justify-content: end">
+      <a style="text-decoration: none;" href="https://raw.githubusercontent.com/EjazEkay/portfolio/main/resume.pdf"
+        ><button class="btn-green" style="margin-bottom: 24px; width: 160px; border-radius: 4px">
+          Download PDF
+        </button></a
+      >
     </div>
     <div class="resume-wrapper-inner mx-auto text-start bg-white shadow-lg">
       <header class="resume-header pt-4 pt-md-0">
@@ -250,6 +254,6 @@ import avatarUrl from '@/assets/avatar/avatar.jpg'
   line-height: 1.5;
 }
 .custom-color {
-  background-color: #E9ECEF;
+  background-color: #e9ecef;
 }
 </style>
