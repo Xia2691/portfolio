@@ -9,7 +9,9 @@ const sendEmail = () => {
 <template>
   <div class="header__rightnav">
     <button @click="sendEmail" class="btn-green"><arrowIcon />{{ $t('header.button.btn1') }}</button>
-    <button class="btn-blue"><downloadIcon />{{ $t('header.button.btn2') }}</button>
+    <router-link to="/cv">
+      <button class="btn-blue"><downloadIcon />{{ $t('header.button.btn2') }}</button>
+    </router-link>
   </div>
 </template>
 
@@ -19,6 +21,11 @@ const sendEmail = () => {
   flex-direction: column;
   gap: 12px;
 }
+
+a:hover {
+  text-decoration: none;
+}
+
 @media (max-width: 768px) {
   .header__rightnav {
     flex-direction: row;

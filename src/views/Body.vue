@@ -61,16 +61,6 @@ const star4 = ref(3.6)
                 color="#66cb8c"
               />
             </div>
-            <div class="progress-item">
-              <h3 class="bar-heading">RESTful & GraphQL <span>Expert</span></h3>
-              <el-progress
-                :text-inside="false"
-                :stroke-width="15"
-                :percentage="88"
-                :show-text="false"
-                color="#66cb8c"
-              />
-            </div>
           </div>
           <a href="https://github.com/EjazEkay"><externalLink />{{ $t('skills.more') }}</a>
         </div>
