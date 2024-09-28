@@ -1,11 +1,11 @@
 <script setup>
-import avatarUrl from '@/assets/avatar/avatar.jpg'
+import avatarUrl from '@/assets/avatar/cv-image.jpg'
 </script>
 
 <template>
   <article class="resume-wrapper text-center position-relative">
     <div class="resume-wrapper-inner mx-auto text-start" style="display: flex; justify-content: end">
-      <a style="text-decoration: none;" href="https://raw.githubusercontent.com/EjazEkay/portfolio/main/resume.pdf"
+      <a style="text-decoration: none;" href="https://raw.githubusercontent.com/xia2691/portfolio/main/resume.pdf"
         ><button class="btn-green" style="margin-bottom: 24px; width: 160px; border-radius: 4px">
           Download PDF
         </button></a
@@ -21,17 +21,17 @@ import avatarUrl from '@/assets/avatar/avatar.jpg'
           <div class="col">
             <div class="row p-4 justify-content-center justify-content-md-between">
               <div class="primary-info col-auto">
-                <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">Ijaz Ul Haq</h1>
-                <div class="title mb-3">MEVN Stack Developer</div>
+                <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">Zia Ur Rehman</h1>
+                <div class="title mb-3">Full Stack Developer</div>
                 <ul class="list-unstyled">
                   <li class="mb-2">
                     <a class="text-link" href="#"
-                      ><i class="far fa-envelope fa-fw me-2" data-fa-transform="grow-3"></i>ejazulhaq8281@gmail.com</a
+                      ><i class="far fa-envelope fa-fw me-2" data-fa-transform="grow-3"></i>ziarehman81777@gmail.com</a
                     >
                   </li>
                   <li>
                     <a class="text-link" href="#"
-                      ><i class="fas fa-mobile-alt fa-fw me-2" data-fa-transform="grow-6"></i>+923055958063</a
+                      ><i class="fas fa-mobile-alt fa-fw me-2" data-fa-transform="grow-6"></i>+923444909023</a
                     >
                   </li>
                 </ul>
@@ -40,15 +40,9 @@ import avatarUrl from '@/assets/avatar/avatar.jpg'
               <div class="secondary-info col-auto mt-2">
                 <ul class="resume-social list-unstyled">
                   <li class="mb-3">
-                    <a class="text-link" href="https://github.com/EjazEkay"
+                    <a class="text-link" href="https://github.com/Xia2691"
                       ><span class="fa-container text-center me-2"><i class="fab fa-github-alt fa-fw"></i></span
-                      >EjazEkay</a
-                    >
-                  </li>
-                  <li class="mb-3">
-                    <a class="text-link" href="https://codepen.io/Ijaz-Ul-Haq"
-                      ><span class="fa-container text-center me-2"><i class="fab fa-codepen fa-fw"></i></span
-                      >Ijaz-Ul-Haq</a
+                      >Xia2691</a
                     >
                   </li>
                 </ul>
@@ -85,38 +79,12 @@ import avatarUrl from '@/assets/avatar/avatar.jpg'
                   <h4 class="resume-skills-cat font-weight-bold">Frontend</h4>
                   <ul class="list-unstyled mb-4">
                     <li class="mb-2">
-                      <div class="resume-skill-name">Vue</div>
+                      <div class="resume-skill-name">HTML/CSS</div>
                       <div class="progress resume-progress custom-color">
                         <div
                           class="progress-bar theme-progress-bar-dark"
                           role="progressbar"
-                          style="width: 82%"
-                          aria-valuenow="25"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                        ></div>
-                      </div>
-                    </li>
-                    <li class="mb-2">
-                      <div class="resume-skill-name">React</div>
-                      <div class="progress resume-progress custom-color">
-                        <div
-                          class="progress-bar theme-progress-bar-dark"
-                          role="progressbar"
-                          style="width: 55%"
-                          aria-valuenow="25"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                        ></div>
-                      </div>
-                    </li>
-                    <li class="mb-2">
-                      <div class="resume-skill-name">JavaScript</div>
-                      <div class="progress resume-progress custom-color">
-                        <div
-                          class="progress-bar theme-progress-bar-dark"
-                          role="progressbar"
-                          style="width: 90%"
+                          style="width: 94%"
                           aria-valuenow="25"
                           aria-valuemin="0"
                           aria-valuemax="100"
@@ -125,12 +93,26 @@ import avatarUrl from '@/assets/avatar/avatar.jpg'
                     </li>
 
                     <li class="mb-2">
-                      <div class="resume-skill-name">HTML/CSS/SASS</div>
+                      <div class="resume-skill-name">figma</div>
                       <div class="progress resume-progress custom-color">
                         <div
                           class="progress-bar theme-progress-bar-dark"
                           role="progressbar"
-                          style="width: 96%"
+                          style="width: 70%"
+                          aria-valuenow="25"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                    </li>
+
+                    <li class="mb-2">
+                      <div class="resume-skill-name">Javascript</div>
+                      <div class="progress resume-progress custom-color">
+                        <div
+                          class="progress-bar theme-progress-bar-dark"
+                          role="progressbar"
+                          style="width: 80%"
                           aria-valuenow="25"
                           aria-valuemin="0"
                           aria-valuemax="100"
@@ -145,25 +127,12 @@ import avatarUrl from '@/assets/avatar/avatar.jpg'
                   <h4 class="resume-skills-cat font-weight-bold">Backend</h4>
                   <ul class="list-unstyled">
                     <li class="mb-2">
-                      <div class="resume-skill-name">Node.js/Express/Fastify</div>
+                      <div class="resume-skill-name">Node.js/Express</div>
                       <div class="progress resume-progress custom-color">
                         <div
                           class="progress-bar theme-progress-bar-dark"
                           role="progressbar"
                           style="width: 90%"
-                          aria-valuenow="25"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                        ></div>
-                      </div>
-                    </li>
-                    <li class="mb-2">
-                      <div class="resume-skill-name">Python/Django</div>
-                      <div class="progress resume-progress custom-color">
-                        <div
-                          class="progress-bar theme-progress-bar-dark"
-                          role="progressbar"
-                          style="width: 55%"
                           aria-valuenow="25"
                           aria-valuemin="0"
                           aria-valuemax="100"
@@ -178,19 +147,10 @@ import avatarUrl from '@/assets/avatar/avatar.jpg'
                   <h4 class="resume-skills-cat font-weight-bold">Others</h4>
                   <ul class="list-inline">
                     <li class="list-inline-item">
-                      <span class="badge badge-light">Figma</span>
-                    </li>
-                    <li class="list-inline-item">
                       <span class="badge badge-light">Code Review</span>
                     </li>
                     <li class="list-inline-item">
-                      <span class="badge badge-light">Git</span>
-                    </li>
-                    <li class="list-inline-item">
                       <span class="badge badge-light">Wireframing</span>
-                    </li>
-                    <li class="list-inline-item">
-                      <span class="badge badge-light">Agile Methodologies</span>
                     </li>
                   </ul>
                 </div>
