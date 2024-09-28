@@ -82,7 +82,7 @@ import avatarUrl from '@/assets/avatar/avatar.jpg'
                   <ul class="list-unstyled mb-4">
                     <li class="mb-2">
                       <div class="resume-skill-name">Vue</div>
-                      <div class="progress resume-progress">
+                      <div class="progress resume-progress custom-color">
                         <div
                           class="progress-bar theme-progress-bar-dark"
                           role="progressbar"
@@ -95,7 +95,7 @@ import avatarUrl from '@/assets/avatar/avatar.jpg'
                     </li>
                     <li class="mb-2">
                       <div class="resume-skill-name">React</div>
-                      <div class="progress resume-progress">
+                      <div class="progress resume-progress custom-color">
                         <div
                           class="progress-bar theme-progress-bar-dark"
                           role="progressbar"
@@ -108,7 +108,7 @@ import avatarUrl from '@/assets/avatar/avatar.jpg'
                     </li>
                     <li class="mb-2">
                       <div class="resume-skill-name">JavaScript</div>
-                      <div class="progress resume-progress">
+                      <div class="progress resume-progress custom-color">
                         <div
                           class="progress-bar theme-progress-bar-dark"
                           role="progressbar"
@@ -122,7 +122,7 @@ import avatarUrl from '@/assets/avatar/avatar.jpg'
 
                     <li class="mb-2">
                       <div class="resume-skill-name">HTML/CSS/SASS</div>
-                      <div class="progress resume-progress">
+                      <div class="progress resume-progress custom-color">
                         <div
                           class="progress-bar theme-progress-bar-dark"
                           role="progressbar"
@@ -142,7 +142,7 @@ import avatarUrl from '@/assets/avatar/avatar.jpg'
                   <ul class="list-unstyled">
                     <li class="mb-2">
                       <div class="resume-skill-name">Node.js/Express/Fastify</div>
-                      <div class="progress resume-progress">
+                      <div class="progress resume-progress custom-color">
                         <div
                           class="progress-bar theme-progress-bar-dark"
                           role="progressbar"
@@ -155,7 +155,7 @@ import avatarUrl from '@/assets/avatar/avatar.jpg'
                     </li>
                     <li class="mb-2">
                       <div class="resume-skill-name">Python/Django</div>
-                      <div class="progress resume-progress">
+                      <div class="progress resume-progress custom-color">
                         <div
                           class="progress-bar theme-progress-bar-dark"
                           role="progressbar"
@@ -248,5 +248,8 @@ import avatarUrl from '@/assets/avatar/avatar.jpg'
   font-family: roboto;
   background-color: #fff;
   line-height: 1.5;
+}
+.custom-color {
+  background-color: #E9ECEF;
 }
 </style>
